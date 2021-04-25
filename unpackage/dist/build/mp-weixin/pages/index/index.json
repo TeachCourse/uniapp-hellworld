@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "班主考勤",
+  "usingComponents": {
+    "uni-combox": "/components/uni-combox/uni-combox"
+  }
+}
