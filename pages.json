@@ -26,7 +26,34 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/req/req",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "热门公众号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/artdet/artdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webview/webview",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -55,6 +82,12 @@
 				"iconPath": "static/icon_que_def.png",
 				"selectedIconPath": "static/icon_que_pre.png",
 				"text": "查询"
+			},
+			{
+				"pagePath": "pages/req/req",
+				"iconPath": "static/icon_que_def.png",
+				"selectedIconPath": "static/icon_que_pre.png",
+				"text": "浏览"
 			}
 		]
 	},

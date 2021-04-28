@@ -1,4 +1,4 @@
-let data={
+let tmpdata={
 	"code":1,
 	"msg":"",
 	"data":[
@@ -14,5 +14,5 @@ let data={
 }
 
 module.exports = {
-  data: data       //前一个data是将后一个data对象数组暴露出去的命名的名字，自己定义的
+  data: tmpdata       //前一个data是将后一个tmpdata对象数组暴露出去的命名的名字，自己定义的
 }
